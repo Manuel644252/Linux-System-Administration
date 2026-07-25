@@ -1,9 +1,0 @@
-# /etc/ssh/sshd_config
-# Configuração do servidor SSH - CentOS 7 (trecho relevante)
-
-Port 22
-PermitRootLogin yes
-PasswordAuthentication yes
-ChallengeResponseAuthentication no
-UsePAM yes
-X11Forwarding yes
