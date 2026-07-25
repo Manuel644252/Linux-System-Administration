@@ -1,1 +1,12 @@
-
+; Zona direta - manuel.local
+$TTL 86400
+@   IN  SOA     server.manuel.local. root.manuel.local. (
+                2024011501  ; serial
+                3600        ; refresh
+                1800        ; retry
+                604800      ; expire
+                86400 )     ; minimum
+;
+@       IN  NS      server.manuel.local.
+server  IN  A       192.168.8.1
+client  IN  A       192.168.8.3
